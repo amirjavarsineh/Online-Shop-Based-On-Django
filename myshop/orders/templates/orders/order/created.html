@@ -1,11 +1,13 @@
 {% extends "shop/base.html" %}
 
-{% block title %}
-  Thank you
-{% endblock %}
+{% block title %}Thank you{% endblock %}
 
 {% block content %}
-  <h1>Thank you</h1>
-  <p>Your order has been successfully completed. Your order number is
-  <strong>{{ order.id }}</strong>.</p>
+    <div style="text-align: center; padding: 3rem; background: white; border-radius: 24px;">
+        <i class="fas fa-check-circle" style="font-size: 4rem; color: #3b71ca;"></i>
+        <h1>Thank you for your order!</h1>
+        <p>Your order number is <strong>{{ order.id }}</strong>.</p>
+        <p>We've sent a confirmation email to your address.</p>
+        <a href="{% url 'shop:product_list' %}" class="btn btn-primary" style="margin-top: 1rem;">Continue shopping</a>
+    </div>
 {% endblock %}
