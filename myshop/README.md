@@ -9,7 +9,6 @@
 
 **MyShop** is a full‑featured, production‑ready e‑commerce platform built with **Django**. It includes product catalog with categories, shopping cart (session‑based), order management, asynchronous email notifications via **Celery** and **Redis**, and a modern responsive frontend.
 
-
 ## ✨ Features
 
 - 🛍️ **Product catalog** with categories and images
