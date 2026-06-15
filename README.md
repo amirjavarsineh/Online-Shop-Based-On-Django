@@ -242,8 +242,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 Copyright (c) 2026 Amir Javarsineh.
-```
 
 ---
-
-Simply copy the above content into a file named `README.md` in your project’s root folder. Replace placeholder images and links as needed. This README is professional, informative, and visually appealing with badges, clear sections, and step-by-step instructions.
