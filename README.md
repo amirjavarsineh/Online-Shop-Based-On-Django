@@ -9,8 +9,6 @@
 
 **MyShop** is a full‑featured, production‑ready e‑commerce platform built with **Django**. It includes product catalog with categories, shopping cart (session‑based), order management, asynchronous email notifications via **Celery** and **Redis**, and a modern responsive frontend.
 
-![Screenshot placeholder](https://via.placeholder.com/1200x600?text=MyShop+Demo)
-
 ## ✨ Features
 
 - 🛍️ **Product catalog** with categories and images
@@ -23,18 +21,7 @@
 - 🧪 **Basic unit tests** for cart functionality
 - 🚀 **Ready for deployment** (production settings separated)
 
-## 📋 Table of Contents
 
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Environment Variables](#environment-variables)
-- [Running the Project](#running-the-project)
-- [Running Celery (Async Tasks)](#running-celery-async-tasks)
-- [Testing](#testing)
-- [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 🧰 Tech Stack
 
@@ -228,18 +215,11 @@ myshop/
 └── manage.py
 ```
 
-## 🖼️ Screenshots
-
-> *Add actual screenshots of your store, product list, cart, and checkout pages here.*
-
-| Homepage | Product detail | Cart |
-|----------|---------------|------|
-| ![Home](https://via.placeholder.com/300x200) | ![Detail](https://via.placeholder.com/300x200) | ![Cart](https://via.placeholder.com/300x200) |
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!  
-Feel free to check the [issues page](https://github.com/yourusername/myshop/issues).
+Feel free to check the [issues page](https://github.com/amirjavarsineh/myshop/issues).
 
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -261,8 +241,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [Google Fonts (Poppins)](https://fonts.google.com/specimen/Poppins)
 
 ---
-
-Made with ❤️ and Django.
+Copyright (c) 2026 Amir Javarsineh.
 ```
 
 ---
